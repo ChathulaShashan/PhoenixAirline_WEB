@@ -135,7 +135,7 @@ content:'';
 position:absolute;
 Left:0;
 bottom: -10px;
-background-color:red;
+background-color: white;
 height:2px;
 box-sizing:border-box;
 width:1485px;
@@ -147,7 +147,7 @@ margin-botom:10px;
 .footer-col ul li a{
 font-size:16px;
 text-transform:capitalize;
-color:blue;
+  color: white;
 text-decoration:none;
 font-weight:300;
 display:block;
@@ -170,7 +170,7 @@ transition:all 0.5s ease;
 
 }
 .footer-col .social-links a:hover{
-color:white;
+color:#24262b;
 background-color:#ffffff;
 }
 
@@ -195,6 +195,7 @@ width:100%;
   text-align: center;
   text-decoration: none;
   margin: 5px 2px;
+
 }
 
 </style>

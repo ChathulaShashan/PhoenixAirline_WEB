@@ -13,8 +13,39 @@
         <meta name="viewport" content="width=device-width, initial-scale=1">
         
         
-        <title>JSP Page</title>
+        <title>Admin login</title>
         <style>
+              /* navi*/
+            
+            .topnav {
+  background-color: #333;
+  overflow: hidden;
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {
+  float: right;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 30px 20px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+  color: lightsteelblue;
+}
+
+/* Add a color to the active/current link */
+.topnav a.active {
+  background-color: #04AA6D;
+  color: white;
+}
+            
+            
+            
+            
 body {font-family: Arial, Helvetica, sans-serif;}
 form {border: 3px solid #f1f1f1;}
 
@@ -77,6 +108,14 @@ span.psw {
   }
 }
 </style>
+</body>
+<div class="topnav">
+  <a href="#home"></a>
+  <a href="#news">About</a>
+  <a href="#contact">Contact</a>
+  <a href="#about">Home</a>
+</div>
+
     </head>
     <center> <h2>Admin Login Form</h2></center>
 
