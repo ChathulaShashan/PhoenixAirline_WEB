@@ -1,6 +1,6 @@
 <%-- 
     Document   : index
-    Created on : Oct 14, 2022, 9:18:23 PM
+    Created on : Oct 6, 2022, 9:18:23 PM
     Author     : SHASHAN
 --%>
 
@@ -8,6 +8,7 @@
 <!DOCTYPE html>
 <html>
         <head>
+          
                 <title>Home page</title>
          <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 
@@ -183,6 +184,8 @@ width:100%;
     </head>
     
     <body>
+        
+         <!-- new update home page*-->
 	<!--Navigation Bar-->
         
     <nav class="navbar navbar-expand-md navbar-dark font-weight-bold nav justify-content-center nav-justified" style="background:url('/8.jpg'); borassets/img/nav.der:3px solid black;">
