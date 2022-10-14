@@ -127,7 +127,7 @@ hr {
   }
 }
 </style>
- <body style="background-image: url('.jpg');">
+ <body style="background-image: url('8.jpg');">
 
 <center><h2>Signup Form</h2></center>
 
