@@ -113,7 +113,7 @@ span.psw {
   <a href="#home"></a>
   <a href="#news">About</a>
   <a href="#contact">Contact</a>
-  <a href="#about">Home</a>
+  <a href="https://nlearn.nsbm.ac.lk/login/index.php">Home</a>
 </div>
 
     </head>

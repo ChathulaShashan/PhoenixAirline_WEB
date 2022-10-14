@@ -197,7 +197,7 @@ width:100%;
 	 <div class="collapse navbar-collapse" style="display:inline!important;" id="navbarCollapse">
         <ul class="navbar-nav mr-auto nav nav-justified">
           <li class="nav-item">
-            <a class="nav-link" href="home.jsp">Home<span class="sr-only">(current)</span></a>
+            <a class="nav-link" href="">Home<span class="sr-only">(current)</span></a>
           </li>
          
           <li class="nav-item">
@@ -216,19 +216,7 @@ width:100%;
   </div>
   
 </div>
-           </li>
-                    <li class="nav-item">
-         <div class="dropdown">
-  <button onclick="myFunction()" class="dropbtn">Sign up</button>
-  <div id="myDropdown" class="dropdown-content">
-    <a href="https://www.google.com/maps">cus</a>
-    <a href="#about">Staff</a>
-
-  </div>
-  
-</div>
-           </li>
-
+           
               
                 <script>
 
