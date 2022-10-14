@@ -106,10 +106,10 @@ span.psw {
     </head>
     <body>
       <div class="topnav">
-  <a href="#home"></a>
+  <a href="http://localhost:8084/WebApplication2/index.jsp">Home</a>
   <a href="#news">About</a>
   <a href="#contact">Contact</a>
-  <a href="#about">Home</a>
+  <a href="http://localhost:8084/WebApplication2/index.jsp">Home</a>
 </div>  
 
     <center> <h2>User Login Form</h2></center>

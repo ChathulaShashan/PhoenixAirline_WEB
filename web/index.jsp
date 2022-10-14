@@ -212,10 +212,10 @@ width:100%;
     <div class="dropdown">
   <button class="dropbtn">Login</button>
   <div class="dropdown-content">
-  <a href="#">Admin</a>
-  <a href="#">Staff1</a>
-  <a href="#">Staff2</a>
-    <a href="#">Customer</a>
+  <a href="http://localhost:8084/WebApplication2/adminlogin.jsp">Admin</a>
+  <a href="http://localhost:8084/WebApplication2/staff1login.jsp">Staff1</a>
+  <a href="http://localhost:8084/WebApplication2/staff2login.jsp">Staff2</a>
+    <a href="http://localhost:8084/WebApplication2/userlogin.jsp">Customer</a>
   </div>
 </div>
           </li>  
