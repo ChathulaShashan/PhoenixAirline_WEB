@@ -137,9 +137,6 @@ width:100%;
 
 
 
-p {
-  font-size: 14px;
-}
 
 
 
@@ -152,17 +149,17 @@ p {
     <body style="background-image: url('./about.webp');">
         
             <div class="topnav">
-  <a href="#home"></a>
-  <a href="#news">About</a>
+  
+  <a href="http://localhost:8084/WebApplication2/about.jsp">About</a>
   <a href="#contact">Contact</a>
-  <a href="#about">Home</a>
+  <a href="http://localhost:8084/WebApplication2/index.jsp">Home</a>
 </div>
        <center>
-           <h1><u>We are the ones who puts you first</u></h1>
+           <h1 style ="color:green;"><u>We are the ones who puts you first</u></h1>
            </br>
               <img src="10.png" alt="Avatar" class="avatar"   height="200" width="200">
              </br>
-             <h2 style="color:#00cccc">
+             <h2 style="color:black;">
                We provide you the best deals on flights from around the world,
                focusing on getting you the best fare deal. You can sign up and be notified.</br></br>
                

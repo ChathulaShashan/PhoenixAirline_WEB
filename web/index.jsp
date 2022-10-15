@@ -203,7 +203,7 @@ width:100%;
           </li>
          
           <li class="nav-item">
-            <a class="nav-link" href="about page ekata">About</a>
+            <a class="nav-link" href="http://localhost:8084/WebApplication2/about.jsp">About</a>
           </li>
            
           <li>
