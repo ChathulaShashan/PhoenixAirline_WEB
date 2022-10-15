@@ -1,7 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    /* test test teat */
   <title>User Dashboard</title>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -30,7 +29,7 @@
   <a href="#home"></a>
   <a href="#news">About</a>
   <a href="#contact">Contact</a>
-  <a href="#about">Home</a>
+  <a href="http://localhost:8084/WebApplication2/index.jsp">Home</a>
 </div>
     <br><br><br>
 <div class="container-fluid">
@@ -39,8 +38,8 @@
       <h2>Phoenix Airline</h2>
       <br> <br>
       <ul class="nav nav-pills nav-stacked">
-        <li class="active"><a href="#section1">My Dashboard</a></li>
-        <li><a href="#section3">Home</a></li>
+        <li class="active"><a href="http://localhost:8084/WebApplication2/userdashboard.jsp">My Dashboard</a></li>
+        <li><a href="http://localhost:8084/WebApplication2/index.jsp">Home</a></li>
         <li><a href="#section2">Flights</a></li>
         <li><a href="#section3">Tickets</a></li>
         <li><a href="#section3">Logout</a></li>
@@ -81,9 +80,9 @@
                  <div class="footer-col">
                   
                  
-                                <li> <a href="">Home</a></li>
-                         ?	<li> <a href="">About</a></li>
-                         ?	<li> <a href="">Live chat</a></li>
+                                <li> <a href="http://localhost:8084/WebApplication2/index.jsp">Home</a></li></br>
+                         	<li> <a href="">About</a></li></br>
+                         	<li> <a href="">Live chat</a></li></br>
                 <h3> <img src="./face.jpg"  alt="facebook" width="40" height="40""><img src="./in.jfif"  alt="inster" width="40" height="40""><img src="./16.png"  alt="twiter" width="25" height="25""></h3>
                           
                           

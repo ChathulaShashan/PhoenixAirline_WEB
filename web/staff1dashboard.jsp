@@ -29,7 +29,7 @@
   <a href="#home"></a>
   <a href="#news">About</a>
   <a href="#contact">Contact</a>
-  <a href="#about">Home</a>
+  <a href="http://localhost:8084/WebApplication2/index.jsp">Home</a>
 </div>
     <br><br><br>
 <div class="container-fluid">
@@ -38,10 +38,10 @@
       <h2>Phoenix Airline</h2>
       <br> <br>
       <ul class="nav nav-pills nav-stacked">
-        <li class="active"><a href="#section1">My Dashboard</a></li>
-        <li><a href="#section3">Home</a></li>
-        <li><a href="#section3">Staff Grade 2 Dashboard</a></li>
-        <li><a href="#section2">User Dashboard</a></li>
+        <li class="active"><a href="http://localhost:8084/WebApplication2/staff1dashboard.jsp">My Dashboard</a></li>
+        <li><a href="http://localhost:8084/WebApplication2/index.jsp">Home</a></li>
+        <li><a href="http://localhost:8084/WebApplication2/staff2dashboard.jsp">Staff Grade 2 Dashboard</a></li>
+        <li><a href="http://localhost:8084/WebApplication2/userdashboard.jsp">User Dashboard</a></li>
         <li><a href="#section3">Flights</a></li>
         <li><a href="#section3">Tickets</a></li>
         <li><a href="#section3">Logout</a></li>
@@ -83,7 +83,7 @@
                  <div class="footer-col">
                   
                  
-                     <li> <a href="">Home</a></li></br>
+                     <li> <a href="http://localhost:8084/WebApplication2/index.jsp">Home</a></li></br>
                      <li> <a href="">About</a></li></br>
                      <li> <a href="">Live chat</a></li></br>
                 <h3> <img src="./face.jpg"  alt="facebook" width="40" height="40""><img src="./in.jfif"  alt="inster" width="40" height="40""><img src="./16.png"  alt="twiter" width="25" height="25""></h3>
