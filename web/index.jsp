@@ -219,6 +219,18 @@ width:100%;
   </div>
 </div>
           </li>  
+                <li>
+              
+       
+    <div class="dropdown">
+  <button class="dropbtn">Signup</button>
+  <div class="dropdown-content">
+  <a href="http://localhost:8084/WebApplication2/signup.jsp">User</a>
+  <a href="http://localhost:8084/WebApplication2/signup.jsp">Staff</a>
+
+  </div>
+</div>
+          </li> 
            
               
                 <script>
