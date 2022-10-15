@@ -110,10 +110,10 @@ span.psw {
 </style>
 </body>
 <div class="topnav">
-  <a href="#home"></a>
+  <a href="http://localhost:8084/WebApplication2/index.jsp">Home</a>
   <a href="#news">About</a>
   <a href="#contact">Contact</a>
-  <a href="https://nlearn.nsbm.ac.lk/login/index.php">Home</a>
+  <a href="http://localhost:8084/WebApplication2/index.jsp">Home</a>
 </div>
 
     </head>
@@ -138,7 +138,7 @@ span.psw {
         </div>
 
   <div class="container" style="background-color:#f1f1f1">
-      <center><button type="button" class="cancelbtn">Cancel</button></center> 
+      <center><button type="button" " class="cancelbtn" ><a href="http://localhost:8084/WebApplication2/adminlogin.jsp">Cancel</a></button></center> 
  
   </div></center>
 </form>

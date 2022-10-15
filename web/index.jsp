@@ -31,11 +31,19 @@
         
         
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-        <title>About page </title>
+        
         
         <style>
+
+
+
+
+body {
+  background-image: url(8.jpg);
+}
+/*dropdown menu css part*/
 .dropbtn {
-    background-color: blue;
+    background-color: #0000ff;
   color: white;
   padding: 8px;
   font-size: 16px;
@@ -43,22 +51,16 @@
   cursor: pointer;
 }
 
-.dropbtn:hover, .dropbtn:focus {
-  background-color: black;
-}
-
 .dropdown {
   position: relative;
-  display: inline-block;
- 
+  display: inline-block;        
 }
 
 .dropdown-content {
   display: none;
   position: absolute;
-  background-color:#00cccc;
+  background-color: #6699ff;
   min-width: 160px;
-  overflow: auto;
   box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
   z-index: 1;
 }
@@ -70,16 +72,16 @@
   display: block;
 }
 
-.dropdown a:hover {background-color: white;}
+.dropdown-content a:hover {background-color: white}
 
-.show {display: block;}
-
-
-
-
-body {
-  background-image: url(8.jpg);
+.dropdown:hover .dropdown-content {
+  display: block;
 }
+
+.dropdown:hover .dropbtn {
+  background-color: black;
+}
+
 
 
 /*footer */
@@ -197,25 +199,38 @@ width:100%;
 	 <div class="collapse navbar-collapse" style="display:inline!important;" id="navbarCollapse">
         <ul class="navbar-nav mr-auto nav nav-justified">
           <li class="nav-item">
-            <a class="nav-link" href="">Home<span class="sr-only">(current)</span></a>
+            <a class="nav-link" href="http://localhost:8084/WebApplication2/index.jsp">Home<span class="sr-only">(current)</span></a>
           </li>
          
           <li class="nav-item">
             <a class="nav-link" href="about page ekata">About</a>
           </li>
            
-         
-           <li class="nav-item">
-         <div class="dropdown">
-  <button onclick="myFunction()" class="dropbtn">Login</button>
-  <div id="myDropdown" class="dropdown-content">
-    <a href="https://www.google.com/maps">Admin</a>
-    <a href="#about">Staff 1</a>
-    <a href="#contact">Staff 2</a>
-    <a href="#contact">Customer</a>
+          <li>
+              
+       
+    <div class="dropdown">
+  <button class="dropbtn">Login</button>
+  <div class="dropdown-content">
+  <a href="http://localhost:8084/WebApplication2/adminlogin.jsp">Admin</a>
+  <a href="http://localhost:8084/WebApplication2/staff1login.jsp">Staff1</a>
+  <a href="http://localhost:8084/WebApplication2/staff2login.jsp">Staff2</a>
+    <a href="http://localhost:8084/WebApplication2/userlogin.jsp">Customer</a>
   </div>
-  
 </div>
+          </li>  
+                <li>
+              
+    <!--   signup dropdown*-->
+    <div class="dropdown">
+  <button class="dropbtn">Signup</button>
+  <div class="dropdown-content">
+  <a href="http://localhost:8084/WebApplication2/signup.jsp">User</a>
+  <a href="http://localhost:8084/WebApplication2/signup.jsp">Staff</a>
+
+  </div>
+</div>
+          </li> 
            
               
                 <script>
