@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <title>Staff Grade 1 Dashboard</title>
+  <title>Staff Grade 2 Dashboard</title>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
@@ -10,7 +10,7 @@
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
   <style>
     /* Set height of the grid so .sidenav can be 100% (adjust as needed) */
-    .row.content {height: 1000px}
+    .row.content {height: 500px}
     
     /* Set gray background color and 100% height */
     .sidenav {
@@ -40,7 +40,6 @@
       <ul class="nav nav-pills nav-stacked">
         <li class="active"><a href="#section1">My Dashboard</a></li>
         <li><a href="#section3">Home</a></li>
-        <li><a href="#section3">Staff Grade 2 Dashboard</a></li>
         <li><a href="#section2">User Dashboard</a></li>
         <li><a href="#section3">Flights</a></li>
         <li><a href="#section3">Tickets</a></li>
@@ -50,25 +49,30 @@
     </div>
     <div class="col-sm-9">
       <div class="well">
-        <h2>Staff Grade 1 Dashboard</h2>
+        <h2>Staff Grade 2 Dashboard</h2>
         <p>Overview</p>
       </div>
       <div class="row">
-        <div class="col-sm-4">
+        <div class="col-sm-3">
           <div class="well">
-              <h4><center>User Details</center></h4>
+            <h4><center>User Information</center></h4>
             <p></p> 
           </div>
         </div>
-        <div class="col-sm-4">
+        <div class="col-sm-3">
           <div class="well">
-            <h4><center>Flight Details</center></h4>
+            <h4><center>Flight Information</center></h4>
             <p></p> 
           </div>
         </div>
-          <center><img src="bb.JPG" alt="Recent Activity"></center>
-          <center><img src="hh.JPG" alt="Recent Activity"></center>
+        <div class="col-sm-3">
+          <div class="well">
+            <h4><center>Confirm Details</center></h4>
+            <p></p> 
+          </div>
         </div>
+        </div>
+        <center><img src="pp.JPG" alt="Recent Activity"></center>
       </div>
     </div>
   </div>
@@ -83,13 +87,13 @@
                  <div class="footer-col">
                   
                  
-                     <li> <a href="">Home</a></li></br>
-                     <li> <a href="">About</a></li></br>
-                     <li> <a href="">Live chat</a></li></br>
+                                <li> <a href="">Home</a></li>
+                         ?	<li> <a href="">About</a></li>
+                         ?	<li> <a href="">Live chat</a></li>
                 <h3> <img src="./face.jpg"  alt="facebook" width="40" height="40""><img src="./in.jfif"  alt="inster" width="40" height="40""><img src="./16.png"  alt="twiter" width="25" height="25""></h3>
                           
                           
-							
+						?	
 			
 				
 		
@@ -98,6 +102,5 @@
         </footer>
    
     </center>
-
 </body>
 </html>
