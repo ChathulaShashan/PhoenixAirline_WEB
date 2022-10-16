@@ -202,7 +202,7 @@ width:100%;
     </head>
 </body>
 <div class="topnav">
-  <a href="http://localhost:8084/WebApplication2/index.jsp">Home</a>
+ 
   <a href="http://localhost:8084/WebApplication2/about.jsp">About</a>
   <a href="#contact">Contact</a>
   <a href="http://localhost:8084/WebApplication2/index.jsp">Home</a>
