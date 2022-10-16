@@ -326,7 +326,7 @@ div{
                   
                  
                                 <li> <a href="">Home</a></li>
-                         ​	<li> <a href="">About</a></li>
+                         ​	<li> <a href="http://localhost:8084/WebApplication2/about.jsp">About</a></li>
                          ​	<li> <a href="">Live chat</a></li>
                 <h3> <img src="./face.jpg"  alt="facebook" width="40" height="40""><img src="./in.jfif"  alt="inster" width="40" height="40""><img src="./16.png"  alt="twiter" width="25" height="25""></h3>
                           
