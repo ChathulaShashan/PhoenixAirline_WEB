@@ -12,15 +12,11 @@
         <title>Payment Page</title>
         <link rel ="stylesheet" href ="./CSS/paypage.css">
     </head>
-<<<<<<< HEAD
-    <body style="background-image: url('./pics/pay1.jpg');"><div class="topnav">
-=======
-    <body style="background-image: url('./pay1.jpg');"><div class="topnav">
->>>>>>> b1c0abb846ac73281aa7305ba404f3a05a1bc640
-  <a href="#home"></a>
-  <a href="#news">About</a>
+    <body style="background-image: url('pay1.jpg');"><div class="topnav">
+ 
+  <a href=http://localhost:8084/WebApplication2/about.jsp>About</a>
   <a href="#contact">Contact</a>
-  <a href="#about">Home</a>
+  <a href="http://localhost:8084/WebApplication2/index.jsp">Home</a>
 </div>
     <br><br><br>
     <center><h1>Your Payment Here</h1></center>
