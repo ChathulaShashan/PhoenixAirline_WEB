@@ -1,1 +1,25 @@
 
+<?php 
+  session_start()
+  $con = mysql_connect('localhost','root','123456');
+  mysql_select_db($con,'takasi airline db');
+
+  $name=$_POST['user'];
+  $pass=$_POST['password']
+
+  $s="select * from sing_up where name = ' $name' " ; 
+
+  $result = mysql_query($con,$s);
+  $num = mysql_num_rows($result);
+  if($num==1){
+
+  	echo "username already taken";
+  }else {
+  	$reg="insert into usertable (name,password) valuse ('$name,$pass')";
+  	mysql_query($con,$reg)
+  	echo"redistration successful"
+  }
+
+
+
+?>v
