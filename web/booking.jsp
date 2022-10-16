@@ -10,7 +10,7 @@
     <head>
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
         <title>Booking Page</title>
-        <link rel ="stylesheet" href ="Booking_details.css">
+        <link rel ="stylesheet" href ="./CSS/booking.css">
     </head>
     <body style="background-image: url('booking1.jpg');">
     <center>
